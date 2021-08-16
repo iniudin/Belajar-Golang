@@ -1,4 +1,4 @@
-package route
+package main
 
 import (
 	"bookstore/controllers"
@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func Route() {
+func main() {
 	user := controllers.NewUserController()
 
 	r := gin.Default()
